@@ -1,0 +1,25 @@
+.row{outline:1px solid #f04d50;}
+.column{outline:1px solid #fcba63;}
+
+#bigText{font-family: 'Pacifico', cursive; font-size: 75px;
+position: relative;
+
+
+@media only screen and (max-width:600px) {
+  .column {
+    background-color: #fcba63;
+  }
+#logo{font-size: 15px;
+}
+#top-bar-right {
+  margin-top: 100px 150px 100px 80px;
+}
+.button {
+  width: 100px;
+}
+.placeholder {
+  width: 20px;
+}
+.header {
+  align-items: center;
+}
